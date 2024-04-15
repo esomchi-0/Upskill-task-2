@@ -1,0 +1,27 @@
+1) **Distinguishing Normal HTML Elements from Semantic HTML Elements:**
+
+Normal HTML elements are those that are primarily used for formatting and structuring web pages. They don't convey any specific meaning about the content they enclose. Examples include `<div>`, `<span>`, `<b>`, `<i>`, etc. These elements are generic and can be styled and manipulated using CSS and JavaScript.
+
+On the other hand, semantic HTML elements are designed to convey meaning about the content they enclose. They provide a structural hierarchy and describe the purpose or meaning of the content. Semantic elements are more meaningful for search engines, accessibility, and developers reading the code. Examples of semantic elements include `<header>`, `<footer>`, `<article>`, `<nav>`, `<section>`, `<aside>`, `<figure>`, `<figcaption>`, etc.
+
+Using semantic elements makes the HTML code more understandable, maintainable, and accessible. It also helps in improving search engine optimization (SEO) as search engines can better understand the content and its structure.
+
+2) **Disparity between Closing Tags and Self-Closing Tags in HTML:**
+
+Closing tags and self-closing tags are fundamental concepts in HTML that define how elements are structured and displayed.
+
+- **Closing Tags:** Most HTML elements require both an opening tag and a closing tag to define the beginning and end of the element's content. For example, `<p>This is a paragraph.</p>` has an opening `<p>` tag and a closing `</p>` tag, enclosing the paragraph content.
+
+- **Self-Closing Tags:** Some HTML elements, like `<img>`, `<input>`, `<br>`, `<hr>`, etc., don't have any content to enclose. For such elements, you can use self-closing tags, which combine the opening and closing tags into one. For example, `<imgsrc="image.jpg" alt="Image">` is a self-closing tag for displaying an image. The `/` before the closing angle bracket (`>`) indicates that it's a self-closing tag.
+
+The disparity lies in the necessity of explicitly closing tags for elements that require it versus elements that don't. Failure to include a closing tag for elements that require it can lead to HTML validation errors and unexpected rendering of the webpage.
+
+3) **Distinguishing Inline Elements from Block Elements in HTML:**
+
+Inline elements and block elements refer to the display behavior of HTML elements in relation to other elements.
+
+- **Inline Elements:** Inline elements are displayed without line breaks and flow within the content. They only take up as much width as necessary and don't start on a new line. Examples include `<span>`, `<a>`, `<strong>`, `<em>`, `<img>`, `<input>`, `<br>`, `<button>`, etc.
+
+- **Block Elements:** Block elements, on the other hand, start on a new line and take up the full width available. They create a block-level structure in the document. Examples include `<div>`, `<p>`, `<h1>` to `<h6>`, `<ul>`, `<ol>`, `<li>`, `<table>`, `<form>`, etc.
+
+The distinction between inline and block elements is crucial for layout and styling purposes. Block elements can contain other block and inline elements, while inline elements are typically contained within block-level elements. CSS properties like `display`, `width`, `height`, `margin`, `padding`, etc., behave differently based on whether an element is inline or block-level, influencing the overall layout and design of web pages.
